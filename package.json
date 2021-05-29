@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-rcs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigokamada/chatbot-rcs.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigokamada/chatbot-rcs/issues"
+  },
+  "homepage": "https://github.com/rodrigokamada/chatbot-rcs#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2"
+  }
+}
