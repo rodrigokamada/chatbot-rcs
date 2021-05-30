@@ -40,7 +40,9 @@ git clone git@github.com:rodrigokamada/chatbot-rcs.git
 npm ci
 ```
 
-**3.** Run the application.
+**3.** Change the `.env` file and add the Zenvia and OpenWeatherMap tokens. 
+
+**4.** Run the application.
 
 ```shell
 npm start
