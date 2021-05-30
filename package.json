@@ -2,7 +2,7 @@
   "name": "chatbot-rcs",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "",
+  "description": "RCS chatbot using Node.js",
   "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
   "repository": {
     "type": "git",

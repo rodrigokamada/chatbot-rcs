@@ -68,6 +68,6 @@ const getWeather = async (latitude, longitude) => {
     temperatureMinimum: response.main.temp_min,
     temperatureMaximum: response.main.temp_max,
     humidity: response.main.humidity,
-    url: `http://openweathermap.org/img/wn/${response.weather[0].icon}@4x.png`,
+    url: `https://raw.githubusercontent.com/rodrigokamada/openweathermap/master/images/${response.weather[0].icon}_white@4x.png`,
   };
 };
