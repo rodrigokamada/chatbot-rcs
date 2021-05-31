@@ -13,12 +13,12 @@ Example application using [JavaScript](https://developer.mozilla.org/docs/Web/Ja
 ## Prerequisites
 
 
-Before you start, you need to install and configure the tools:
+Before you start, you need to install and configure the tools and services:
 
 * [git](https://git-scm.com/)
 * [Node.js and npm](https://nodejs.org/)
 * [Angular CLI](https://angular.io/cli)
-* IDE
+* IDE (e.g. [Visual Studio Code](https://code.visualstudio.com/))
 * [Zenvia](https://app.zenvia.com/) account
 * [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) account
 * [ngrok](https://dashboard.ngrok.com/signup) account
@@ -40,7 +40,7 @@ git clone git@github.com:rodrigokamada/chatbot-rcs.git
 npm ci
 ```
 
-**3.** Change the `.env` file and add the Zenvia and OpenWeatherMap tokens. 
+**3.** Change the `.env` file and add the [Zenvia](https://app.zenvia.com/home/api) and [OpenWeatherMap](https://home.openweathermap.org/api_keys) tokens. 
 
 **4.** Run the application.
 
