@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/rodrigokamada/chatbot-rcs#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
