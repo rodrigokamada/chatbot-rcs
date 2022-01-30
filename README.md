@@ -1,6 +1,8 @@
 # RCS chatbot using Node.js
 
-Example application using [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) and [Node.js](https://nodejs.org/) where a simple chatbot will be implemented using the [ZENVIA](https://www.zenvia.com/) platform to integrate with RCS (Rich Communication Services) and the [OpenWeatherMap](https://www.openweathermap.org/) platform to integrate with meteorological data in order to test some RCS features such as sending and receiving text and image messages and sharing location.
+Application example using [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) and [Node.js](https://nodejs.org/) where a simple chatbot will be implemented using the [ZENVIA](https://www.zenvia.com/) platform to integrate with RCS (Rich Communication Services) and the [OpenWeatherMap](https://www.openweathermap.org/) platform to integrate with meteorological data in order to test some RCS features such as sending and receiving text and image messages and sharing location.
+
+This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/como-construir-um-chatbot-de-previsao-do-tempo-no-canal-rcs-usando-nodejs) in portuguese and on the [Medium]() in english.
 
 
 
