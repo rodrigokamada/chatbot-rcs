@@ -20,14 +20,14 @@ app.post('*', async (req, res) => {
   if (contentReceived.type === 'MESSAGE') {
     let content = {
       type: 'text',
-      text: 'Testado',
+      text: 'Tested',
     };
 
     if (contentReceived.message.contents[0].type === 'location') {
       const weather = await getWeather(contentReceived.message.contents[0].latitude, contentReceived.message.contents[0].longitude);
       content = {
         type: 'card',
-        text: `📍 Tempo em ${weather.name}\n\nTemperatura: ${weather.temperature}º\nTemperatura Mínima: ${weather.temperatureMinimum}º\nTemperatura Máxima: ${weather.temperatureMaximum}º\nUmidade: ${weather.humidity}%`,
+        text: `📍 Weather for ${weather.name}\n\nTemperature: ${weather.temperature}º\nMin Temperature: ${weather.temperatureMinimum}º\nMax Temperature: ${weather.temperatureMaximum}º\nHumidity: ${weather.humidity}%`,
         media: {
           url: weather.url,
           disposition: 'ON_THE_LEFT',
